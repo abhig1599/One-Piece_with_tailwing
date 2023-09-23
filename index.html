@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Abhi Review</title>
+    <link rel="shortcut icon" href="images/logo one.jpg" type="image/x-icon" />
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Tailwind CSS and DaisyUI -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@3.5.1/dist/full.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/2fba3f7a77.js"
+      crossorigin="anonymous"
+    ></script>
+    <!--Custom JS for Color  -->
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: "#da373d",
+              color: "#667074",
+              "text-primary": "#134761",
+            },
+          },
+        },
+      };
+    </script>
+
+    <!-- Custom Style -->
+    <style>
+      .font-inter {
+        font-family: "Inter", sans-serif;
+      }
+    </style>
+  </head>
+  <body class="">
+    <!-- Header Start -->
+    <header class="max-w-[1180px] mx-auto">
+      <div class="navbar mb-24 mt-7">
+        <div class="navbar-start">
+          <div class="dropdown">
+            <label tabindex="0" class="btn btn-ghost lg:hidden">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 6h16M4 12h8m-8 6h16"
+                />
+              </svg>
+            </label>
+            <ul
+              tabindex="0"
+              class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+            >
+              <li><a>Home</a></li>
+              <li><a>Anime</a></li>
+              <li><a>Manga</a></li>
+              <li><a>Manhwa</a></li>
+              <li><a>Donghwa</a></li>
+            </ul>
+          </div>
+          <a  href="#">
+            <img class="w-15 h-40" src="images/logo one.jpg" alt="">
+          </a>
+        </div>
+        <div class="navbar-center hidden lg:flex">
+          <ul
+            class="menu menu-horizontal px-1 text-base text-[#000000] font-normal"
+          >
+            <li><a class="hover:bg-white">HOME</a></li>
+            <li><a class="hover:bg-white">ANIME</a></li>
+            <li><a class="hover:bg-white">MANGA</a></li>
+            <li><a class="hover:bg-white">MANHWA</a></li>
+            <li><a class="hover:bg-white">DONGHWA</a></li>
+          </ul>
+        </div>
+        <div class="navbar-end">
+          <button
+            class="btn border-black bg-white capitalize hover:bg-[#F5CF3E] lg:px-10 lg:py5 hover:shadow-lg text-lg"
+          >
+            <a class="">Get started</a>
+          </button>
+        </div>
+      </div>
+      <div class="flex flex-col lg:flex-row gap-6 px-2 md:px-3">
+        <div class="space-y-6 w-[96%] lg:w-[48%] text-color">
+          <h4 class="text-[#3E484A] font-bold relative">
+            <span
+              class="absolute top-0 left-0 h-full w-2/6 md:w-2/12 lg:w-1/5 bg-[#FFF3D9]"
+            ></span>
+            <span class="relative z-12">Welcome to AbhiG site With Tailwing</span>
+          </h4>
+          <h2 class="text-5xl font-extrabold text-[#5acf5c]">
+            One Piece<br />
+            
+          </h2>
+          <p class="text-lg">
+            "One Piece" stands out for its intricate world-building, featuring a diverse and immersive fictional universe. Its enduring 24-year serialization maintains high-quality storytelling, captivating a dedicated global fan base.
+          </p>
+          <div class="flex gap-2 lg:gap-4">
+            <button
+              class="btn bg-white text-black border-black capitalize hover:bg-[#5fe358]"
+            >
+              Get started
+            </button>
+            <button
+              class="btn bg-white text-black border-black capitalize hover:bg-[#F5CF3E]"
+            >
+              How it works?
+            </button>
+          </div>
+        </div>
+        <div class="w-[96%] lg:w-[48%]">
+          <div class="grid grid-cols-3 gap-3 justify-evenly">
+            <img
+              class="rounded-lg row-span-3 col-span-2 w-[100%]"
+              src="images/one.jpg"
+              alt=""
+            />
+            <div class="flex flex-row gap-2 mt-[50%]">
+              <img
+                class="rounded-lg w-[50%] lg:h-[100%] "
+                src="images/luffy.jpg"
+                alt=""
+              />
+              <div
+                class="bg-[#FFF3D9] w-[50%] lg:h-[100%] rounded-tr-full"
+              ></div>
+            </div>
+            <img
+              class="rounded-lg w-44 row-span-2"
+              src="images/Monkey D_ Luffy_ The Captain of the Straw Hat Pirates.jpg"
+              alt=""
+            />
+
+            <div class="flex flex-row gap-2">
+              <div class="bg-[#CCF0EE] w-[50%] h-[25%] rounded-bl-full"></div>
+              <img
+                class="rounded-lg w-[50%] h-[25%]"
+                src="images/ARTE I_A de ONE PIECE _ FANART de ONE PIECE.jpg"
+                alt=""
+              />
+            </div>
+
+            <img
+              class="rounded-lg w-[80%] col-span-2"
+              src="images/bounty.jpg"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+      <div class="flex flex-col lg:flex-row mt-10 lg:mt-40 items-center">
+        <div
+          class="grid grid-cols-1 lg:grid-cols-3 gap-5 w-8/12 text-center mb-10 lg:mb-0"
+        >
+          <div class="">
+            <h1 class="text-3xl lg:text-6xl text-[#FF3131] font-bold">8.9/10</h1>
+            <p class="text-[#788184] text-lg mt-5">IMTb</p>
+          </div>
+          <div>
+            <h1 class="text-3xl lg:text-6xl text-[#2b1d44] font-bold">86%</h1>
+            <p class="text-[#788184] text-lg mt-5">TOMATOMETER</p>
+          </div>
+          <div>
+            <h1 class="text-3xl lg:text-6xl text-[#F5CF3E] font-bold">4.7/5 </h1>
+            <p class="text-[#788184] text-lg mt-5">AUDIENCE SCORE</p>
+          </div>
+        </div>
+        <div class="bg-[#F6F6F6] p-10 rounded-lg flex relative">
+          <div class="space-y-4 w-3/5">
+            <h3 class="text-lg lg:text-2xl text-[#2e203c] font-semibold">
+              Why started Start watching One-Piece
+            </h3>
+            <p>
+              "One Piece": Epic world-building, enduring legacy.
+            </p>
+            <p>
+              <a href="" class="text-[#FF3131] font-semibold text-lg">
+                <span>Learn more</span>
+                <i class="fa-solid fa-circle-chevron-right"></i>
+              </a>
+            </p>
+            <div class="absolute right-[4%] bottom-[-4%]">
+              <img class="h-80 " src="images/On This Instagram Page, People Share Unpopular Opinions And Here Are 50 Of The Most Polarizing Ones (New Posts).jpg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- Header End -->
+    <main class="bg-[#F8F3DD] my-20">
+      <!-- Our Service Start -->
+      <section class="py-20">
+        <div class="text-center space-y-7 px-2 lg:px-0 mb-12">
+          <h3 class="text-lg text-[#8b78b5] font-semibold relative">
+            <span
+              class="absolute bg-[#FFF3D9] top-0 mx-auto h-full w-36"
+            ></span>
+            <span class="relative z-[10]">Our Awesome Services</span>
+          </h3>
+          <h2 class="text-indigo-200 font-semibold text-3xl lg:text-5xl">
+            Our Services
+          </h2>
+          <p class="max-w-3xl mx-auto">
+            One Piece captures the essence of its beloved source material with a charmingly big-hearted adaptation that should entertain longtime fans as well as patient newcomers.
+            <a class="text-blue-600" href="https://www.rottentomatoes.com/tv/one_piece_2023/s01/reviews?intcmp=rt-what-to-know_read-critics-reviews">Read critic reviews</a>
+          </p>
+        </div>
+        <div
+          class="max-w-[1180px] mx-auto grid grid-cols-1 lg:grid-cols-3 gap-8 px-1"
+        >
+        <div class="flex flex-row gap-3 items-start">
+          <div class="bg-white shadow-lg p-3 rounded-lg w-24 h-20">
+            <img class="flex align-middle justify-center h-14 w-20" src="images/icons8-not-suitable-for-children-under-age-x-26.png" alt="" />
+          </div>
+          <div class="space-y-1">
+            <h3 class="font-semibold text-lg text-[#233036]">
+              Age Restrictions
+            </h3>
+            <p class="text-[#878F92]">
+              only for 11+ Age 
+            </p>
+          </div>
+        </div>
+          <div class="flex flex-row gap-3 items-start">
+            <div class="bg-white shadow-lg p-3 rounded-lg w-20 h-20">
+              <img class=" flex align-middle justify-center h-14 " src="images/icons8-cinema-26.png" alt="" />
+            </div>
+            <div class="space-y-1">
+              <h3 class="font-semibold text-lg text-[#233036]">
+                Where to Watch
+              </h3>
+              <p class="text-[#878F92]">
+                One-Piece was available in <a href="https://aniwatch.to/one-piece-100" class="text-blue-600">Aniwatch</a>
+              </p>
+            </div>
+          </div>
+          <div class="flex flex-row gap-3 items-start">
+            <div class="bg-white shadow-lg p-3 rounded-lg w-24 h-20">
+              <img class="flex align-middle justify-center h-14 w-20" src="images/icons8-m-50.png" alt="" />
+            </div>
+            <div class="space-y-1">
+              <h3 class="font-semibold text-lg text-[#233036]">
+                Were to read
+              </h3>
+              <p class="text-[#878F92]">
+                Manga of One piece was Available <a  class="text-blue-600" href="https://mangakakalot.com/search/story/one_piece">Here</a>
+              </p>
+            </div>
+          </div>
+          <div class="flex flex-row gap-3 items-start">
+            <div class="bg-white shadow-lg p-3 rounded-lg w-24 h-20">
+              <img class="flex align-middle justify-center h-14 w-20" src="images/icons8-github.svg" alt="" />
+            </div>
+            <div class="space-y-1">
+              <h3 class="font-semibold text-lg text-[#233036]">
+                Git
+              </h3>
+              <p class="text-[#878F92]">
+                My <a  class="text-blue-600" href="https://github.com/abhig1599">Git </a> ID 
+              </p>
+            </div>
+          </div>
+          <div class="flex flex-row gap-3 items-start">
+            <div class="bg-white shadow-lg p-3 rounded-lg w-24 h-20">
+              <img class="flex align-middle justify-center h-14 w-20" src="images/icons8-linked-in.svg" alt="" />
+            </div>
+            <div class="space-y-1">
+              <h3 class="font-semibold text-lg text-[#233036]">
+               Linked In 
+              </h3>
+              <p class="text-[#878F92]">
+                My <a  class="text-blue-600" href="https://www.linkedin.com/in/abhishek-guleria-99abbb264/">Linked In</a>Id
+              </p>
+            </div>
+          </div>
+          <div class="flex flex-row gap-3 items-start">
+            <div class="bg-white shadow-lg p-3 rounded-lg w-24 h-20">
+              <img class="flex align-middle justify-center h-14 w-20" src="images/icons8-insta.svg" alt="" />
+            </div>
+            <div class="space-y-1">
+              <h3 class="font-semibold text-lg text-[#233036]">
+                Insta
+              </h3>
+              <p class="text-[#878F92]">
+                My Instagram Id <a  class="text-blue-600" href="https://www.instagram.com/_abhi_1599/">Here</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Our Service End -->
+
+      <!-- Our Solutions Start -->
+      <section class="py-20 max-w-[1180px] mx-auto px-3 lg:px-0">
+        <div class="flex flex-col lg:flex-row gap-5">
+          <div class="w-[100%] lg:w-1/2">
+            <div class="grid grid-cols-2 gap-3">
+              <img
+                class="rounded-lg"
+                src="images/ARTE I_A de ONE PIECE _ FANART de ONE PIECE.jpg"
+                alt=""
+              />
+              <div class="flex flex-col gap-3">
+                <div
+                  class="h-1/4 w-1/4 bg-[#e1a3a3] rounded-xl rounded-tr-[200px]"
+                ></div>
+                <img
+                  class="h-3/4 w-3/4 rounded-lg"
+                  src="images/a4634142-dc5a-489a-b5a7-f95b14571e94.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="flex flex-row gap-2">
+                <div class="w-1/2 ml-[20%]">
+                  <div
+                    class="h-1/2 bg-[#CCF0EE] rounded-lg rounded-bl-[200px]"
+                  ></div>
+                </div>
+                <img
+                  class="w-1/2 rounded-lg "
+                  src="images/f3d94d4f-326a-4a6c-83a5-fcc7ad2ee6b5.jpg"
+                  alt=""
+                />
+              </div>
+              <div
+                class="w-11/12 shadow-xl bg-white flex flex-col px-2 lg:px-10 justify-center rounded-lg"
+              >
+                <h3 class="text-[#8b78b5] font-bold text-3xl lg:text-5xl">
+                  1000+
+                </h3>
+                <p class="text-[#878F92] text-base">Chapters</p>
+              </div>
+            </div>
+          </div>
+          <div class="space-y-4 lg:space-y-8 w-[100%] lg:w-1/2">
+            <h3 class="text-lg text-[#434E53] font-semibold relative">
+              <span class="absolute bg-[#FFF3D9] top-0 h-full w-24"></span>
+              <span class="relative z-10">Search Result</span>
+            </h3>
+            <h2
+              class="text-2xl lg:text-[45px] font-bold text-[#233036] lg:leading-[44px]"
+            >
+            One Piece (TV series) <br />
+              From Wikipedia
+            </h2>
+            <p class="text-[#878F92]">
+              One Piece (stylized in all caps) is a Japanese anime television series produced by Toei Animation that premiered on Fuji TV in October 1999. It is based on Eiichiro Oda's manga series of the same name. The story follows the adventures of Monkey D. Luffy, a boy whose body gained the properties of rubber after unintentionally eating a Devil Fruit. With his crew, named the Straw Hat Pirates, Luffy explores the Grand Line in search of the world's ultimate treasure known as the "One Piece" in order to become the next Pirate King.
+            </p>
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-2 space-y-2">
+              <p class="text-[#878F92] flex items-center gap-2.5">
+                <i class="fa-solid fa-circle-check text-[#1D5B79] text-3xl"></i>
+                Adventure
+              </p>
+              <p class="text-[#878F92] flex items-center gap-2.5">
+                <i class="fa-solid fa-circle-check text-[#1D5B79] text-3xl"></i>
+                Fantasy
+              </p>
+              <p class="text-[#878F92] flex items-center gap-2.5">
+                <i class="fa-solid fa-circle-check text-[#1D5B79] text-3xl"></i>
+                Actions
+              </p>
+              <p class="text-[#878F92] flex items-center gap-2.5">
+                <i class="fa-solid fa-circle-check text-[#1D5B79] text-3xl"></i>
+                Comedy
+              </p>
+            </div>
+            <div class="flex gap-2 lg:gap-4">
+              <button
+                class="btn bg-white text-black border-black capitalize hover:bg-[#F5CF3E] hover:text-white"
+              >
+                Get started
+              </button>
+              <button
+                class="btn bg-[#2e86c0] text-white capitalize hover:bg-[#2a1797]"
+              >
+                Explore more
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Our Solutions End -->
+
+      <!-- Customer Review Section Start -->
+      <!-- Customer Review Section  End -->
+      <!--  -->
+    </main>
+    <!-- Footer Section Start -->
+    <footer class="md:px-4 py-10 max-w-[1180px] mx-auto">
+      <div
+        class="grid grid-cols-1 lg:grid-cols-3 gap-10 lg:gap-20 mb-7 px-5 lg:px-0 lg:mb-12"
+      >
+        <div class="text-base space-y-7">
+          <a  href="#">
+            <img class="w-15 h-40" src="images/logo one.jpg" alt="">
+          </a>
+          <p class="text-[#8b78b5]">
+            Studios: Toei Animation
+            <br>
+Producers: Fuji TV, TAP, Shueisha, Toei Animation, Funimation, 4Kids Entertainment
+          </p>
+          <p>
+            <a href="" class="text-[#8b78b5] font-semibold text-lg">
+              <span>Learn more</span>
+              <i class="fa-solid fa-circle-chevron-right"></i>
+            </a>
+          </p>
+        </div>
+        <div class="flex flex-row gap-10">
+          <div class="text-base flex flex-col space-y-4 w-6/12">
+            <h3 class="mb-3 text-[#8b78b5] capitalize text-xl font-semibold">
+              Company
+            </h3>
+            <a class="link text-color no-underline">Home</a>
+            <a class="link text-color no-underline">How we work </a>
+            <a class="link text-color no-underline">Our Mission</a>
+            <a class="link text-color no-underline">About</a>
+            <a class="link text-color no-underline">Careers</a>
+            <a class="link text-color no-underline">Contact</a>
+          </div>
+          <div class="text-base flex flex-col space-y-4">
+            <h3 class="mb-3 text-[#233036] capitalize text-xl font-semibold">
+              Resources
+            </h3>
+            <a class="link text-color no-underline">Blog</a>
+            <a class="link text-color no-underline">Support</a>
+            <a class="link text-color no-underline">Terms & conditions</a>
+            <a class="link text-color no-underline">Private policy</a>
+          </div>
+        </div>
+        <div class="text-base">
+          <h3 class="mb-3 text-[#8b78b5] capitalize text-xl font-semibold">
+            Contact
+          </h3>
+          <div class="grid space-y-6">
+            <p class="text-color">
+              Please feel free to reach out to us with any inquiries, questions,
+              or assistance you may need.
+            </p>
+            <p class="text-color">
+              <i class="fa-solid fa-location-dot text-[#1D5B79]"></i>
+              <span class="ml-2"
+                > 133, Balepete Main Rd Balepete, Chickpet, Bengaluru, Karnataka 560053</span
+              >
+            </p>
+            <p class="text-color">
+              <i class="fa-solid fa-phone text-[#8b78b5]"></i>
+              <span class="ml-2">+919998887776</span>
+            </p>
+            <p>
+              <i class="fa-solid fa-globe text-[#8b78b5]"></i>
+              <a href=""
+                ><span class="ml-2">https://www.linkedin.com/in/abhishek-guleria-99abbb264/</span></a
+              >
+            </p>
+          </div>
+        </div>
+      </div>
+      
+    </footer>
+    <!-- Footer Section End -->
+  </body>
+</html>
